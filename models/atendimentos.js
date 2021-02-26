@@ -1,6 +1,6 @@
-const connection = require('../controllers/infraestrutura/conection')
+const connection = require('../infraestrutura/conection')
 const moment = require('moment')
-const conection = require('../controllers/infraestrutura/conection')
+const conection = require('../infraestrutura/conection')
 
 class Atendimento {
     adiciona(atendimento, res) {
