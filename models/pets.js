@@ -1,5 +1,5 @@
-const connection = require('../infraestrutura/conection')
-const uploadDeArquivo = require('../arquivos/uploadDeArquivos')
+const connection = require('../infraestrutura/database/conexao')
+const uploadDeArquivo = require('../infraestrutura/arquivos/uploadDeArquivos')
   
 class Pet {
     adiciona(pet, res){
